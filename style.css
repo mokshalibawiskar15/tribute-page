@@ -1,0 +1,38 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+
+
+.main{
+width: auto ;
+height: auto;
+margin: 0 15%;
+border: 2px solid black;
+text-align: center;
+align-items: center;
+background-color: #001a00;
+color: white;
+justify-content: space-between;
+}
+
+.picc{
+     border-radius: 70%;
+ 
+   
+}
+
+.intro{
+   margin: auto 20px;
+}
+
+.info{
+    margin: 10px 20px;
+ }
+ @media screen and (max-width: 900px) {
+      .picc{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+ }
